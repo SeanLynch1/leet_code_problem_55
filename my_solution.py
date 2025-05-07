@@ -1,8 +1,7 @@
 
 from typing import List
+
 class Solution:
-    
-    
     
     def loop(self, pointer, nums, visited_indices):
         
