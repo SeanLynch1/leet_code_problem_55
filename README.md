@@ -4,7 +4,7 @@ This turned out to be more complex than necessary—but I thought it was a cool 
 
   - I tackled the problem recursively and used a dictionary to track visited indices, effectively memoizing states to avoid redundant calculations. While this approach is logically correct and passes all test cases, it performs poorly in terms of time complexity—ranking in the bottom 5% of submissions on LeetCode.
   
-  - Ultimately, I learned that this problem can be solved much more efficiently using a simple greedy algorithm with a single loop. A simple greedy algorithm is solved in O(n) time, it visits each index in an array at most once, making the optimal decision at each step. I've included both my original (inefficient) recursive solution and the optimal iterative solution below.
+  - Ultimately, I learned that this problem can be solved much more efficiently using a simple greedy algorithm with a single loop. A simple greedy algorithm is solved in O(n) time, it visits each index in an array at most once, making the optimal decision at each step, hoping that these choices lead to the correct output, in the most optimal way. I've included both my original (inefficient) recursive solution and the optimal iterative solution below.
 
 ## Problem Statement
 
