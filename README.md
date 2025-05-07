@@ -1,4 +1,3 @@
-### 💡 My Solution
 ## My initial solution to LeetCode Problem 55: Jump Game
 
 This turned out to be more complex than necessary—but I thought it was a cool exercise, so I’ve included it here.
@@ -7,4 +6,3 @@ This turned out to be more complex than necessary—but I thought it was a cool 
 
 - Ultimately, I learned that this problem can be solved much more efficiently using a simple greedy algorithm with a single loop. I've included both my original (inefficient) recursive solution and the optimal iterative solution below.
 
-- Sometimes, overengineering a problem is part of the learning process!
